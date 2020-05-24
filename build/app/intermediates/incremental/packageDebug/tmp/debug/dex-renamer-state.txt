@@ -1,4 +1,0 @@
-#Fri May 22 17:21:53 CST 2020
-base.0=/Users/wecutosio/hgeson/androidDemo/flutter_app/build/app/intermediates/dex/debug/mergeDexDebug/out/classes.dex
-path.0=classes.dex
-renamed.0=classes.dex

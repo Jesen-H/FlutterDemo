@@ -3,7 +3,7 @@ import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:flutterapp/widget/material_app.dart';
 import 'personPage.dart';
-import 'indexPage.dart';
+import 'index/indexPage.dart';
 import 'cameraPage.dart';
 
 class HomePageDart extends StatelessWidget {
