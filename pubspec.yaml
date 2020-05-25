@@ -35,6 +35,8 @@ dev_dependencies:
   dio: ^3.0.9
   rxdart: ^0.22.1+1
   io: ^0.3.3
+  webview_flutter: ^0.3.10
+  transparent_image: ^0.1.0
 
   flutter_test:
     sdk: flutter

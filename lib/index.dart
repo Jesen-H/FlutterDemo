@@ -9,6 +9,8 @@ import 'package:flutterapp/blocfirst.dart';
 import 'package:flutterapp/wecut/homePage.dart';
 import 'package:flutterapp/stream.dart';
 import 'package:flutterapp/widget/material_app.dart';
+import 'package:flutterapp/webview.dart';
+import 'package:flutterapp/coloring_girl/coloring_homepage.dart';
 
 void main() {
   runApp(
@@ -82,7 +84,19 @@ class MyApp extends StatelessWidget {
                 case 8:
                   Navigator.push(context,
                       MaterialPageRoute(builder: (BuildContext context) {
+                        return new WebViewDart();
+                      })).then((value) => {});
+                  break;
+                case 9:
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (BuildContext context) {
                         return new HomePageDart();
+                      })).then((value) => {});
+                  break;
+                case 10:
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (BuildContext context) {
+                        return new ColoringHomePage();
                       })).then((value) => {});
                   break;
               }
@@ -97,5 +111,16 @@ class MyApp extends StatelessWidget {
     );
   }
 
-  final List<String> entries = <String>['布局', '标题头', '点触事件', '异步线程的使用', '补间动画Tween', 'AnimatedBuilder构建', '测试Stream','测试BLoC', '仿Wecut'];
+  final List<String> entries = <String>[
+    '布局',
+    '标题头',
+    '点触事件',
+    '异步线程的使用',
+    '补间动画Tween',
+    'AnimatedBuilder构建',
+    '测试Stream',
+    '测试BLoC',
+    '测试WebView',
+    '仿Wecut',
+    '填色少女'];
 }
